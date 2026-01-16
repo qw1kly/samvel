@@ -1,3 +1,8 @@
+#html_element{
+    position: absolute;
+    top: 250px;
+    left: calc(50% - 304px / 2);
+}
 img{
     -webkit-user-select: none;
         -khtml-user-select: none;
