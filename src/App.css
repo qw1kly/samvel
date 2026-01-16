@@ -2,6 +2,15 @@
     position: absolute;
     top: 250px;
     left: calc(50% - 304px / 2);
+    z-index: 999px;
+}
+#blured{
+    position: absolute;
+    z-index: 1000;
+    height: 100vh;
+    width: 100%;
+    filter: blur(12px);
+    backdrop-filter: blur(12px);
 }
 img{
     -webkit-user-select: none;
