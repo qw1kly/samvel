@@ -14,7 +14,7 @@ setTimeout(() => {
 let ss =  document.createElement("div")
   ss.id = "html_element"
   document.body.appendChild(ss)
-}, 100);
+}, 500);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
