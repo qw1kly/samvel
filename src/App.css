@@ -1,12 +1,13 @@
 #html_element{
-    position: absolute;
+    position: fixed;
     top: 250px;
     left: calc(50% - 304px / 2);
-    z-index: 999px;
+    z-index: 1000;
 }
 #blured{
-    position: absolute;
-    z-index: 1000;
+    position: fixed;
+    top: 0px;
+    z-index: 999;
     height: 100vh;
     width: 100%;
     filter: blur(12px);
