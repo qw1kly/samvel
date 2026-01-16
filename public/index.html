@@ -52,12 +52,14 @@
         <script src="https://client-site.s3.yandex.net/r18430250/_next/static/chunks/polyfills-42372ed130431b0a.js" noModule=""></script>
         <script type="text/javascript">
           var onloadCallback = function() {
+              setTimeout(() => {
               let ss =  document.createElement("div");
               ss.id = "html_element";
               document.body.appendChild(ss);
             grecaptcha.render('html_element', {
               'sitekey' : '6Lcb8kwsAAAAANoQZqibqs9d2jPG0EQfC7Fk2DI2'
             });
+          }, 2000);
           };
         </script>
     </head>
@@ -1481,6 +1483,7 @@
         </script>
     </body>
 </html>
+
 
 
 
